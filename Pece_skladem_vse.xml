@@ -5,80 +5,80 @@
     <title>Pece skladem</title>
     <structure>
       <field>
-        <title>Kód zboží</title>
+        <title>Typ</title>
       </field>
       <field>
-        <title>Interní kód produktu</title>
+        <title>Skladová zásoba</title>
       </field>
       <field>
-        <title>Název zboží</title>
+        <title>Skladové číslo</title>
       </field>
       <field>
-        <title>Skladem</title>
+        <title>Produktový odkaz</title>
       </field>
     </structure>
   </header>
   <body>
     <rows>
       <row>
-        <kod_zbozi>01135368</kod_zbozi>
-        <interni_kod>S1</interni_kod>
-        <nazev>Pec M 160/13</nazev>
-        <skladem>8</skladem>
+        <typ>Pec M 160/13</typ>
+        <skladova_zasoba>8</skladova_zasoba>
+        <skladove_cislo>01135368</skladove_cislo>
+        <odkaz url=""></odkaz>
       </row>
       <row>
-        <kod_zbozi>01135653</kod_zbozi>
-        <interni_kod>S1</interni_kod>
-        <nazev>Pec M 60/13 (230V)</nazev>
-        <skladem>4</skladem>
+        <typ>Pec M 60/13 (230V)</typ>
+        <skladova_zasoba>4</skladova_zasoba>
+        <skladove_cislo>01135653</skladove_cislo>
+        <odkaz url=""></odkaz>
       </row>
       <row>
-        <kod_zbozi>01136440</kod_zbozi>
-        <interni_kod>S1</interni_kod>
-        <nazev>Pec M 30/13 (230V)</nazev>
-        <skladem>1</skladem>
+        <typ>Pec M 30/13 (230V)</typ>
+        <skladova_zasoba>1</skladova_zasoba>
+        <skladove_cislo>01136440</skladove_cislo>
+        <odkaz url="https://www.lac.cz/cs/pece-a-susarny/kruhova-pec-m">Kruhová keramická pec M 30/13 (230V)</odkaz>
       </row>
       <row>
-        <kod_zbozi>01136486</kod_zbozi>
-        <interni_kod>S1</interni_kod>
-        <nazev>Pec M 45/13 (230V)</nazev>
-        <skladem>6</skladem>
+        <typ>Pec M 45/13 (230V)</typ>
+        <skladova_zasoba>6</skladova_zasoba>
+        <skladove_cislo>01136486</skladove_cislo>
+        <odkaz url=""></odkaz>
       </row>
       <row>
-        <kod_zbozi>01136505</kod_zbozi>
-        <interni_kod>S1</interni_kod>
-        <nazev>Pec M 100/13</nazev>
-        <skladem>7</skladem>
+        <typ>Pec M 100/13</typ>
+        <skladova_zasoba>7</skladova_zasoba>
+        <skladove_cislo>01136505</skladove_cislo>
+        <odkaz url="https://www.lac.cz/cs/pece-a-susarny/kruhova-pec-m">Kruhová keramická pec M 100/13</odkaz>
       </row>
       <row>
-        <kod_zbozi>01136579</kod_zbozi>
-        <interni_kod>S1</interni_kod>
-        <nazev>Pec M 150/13</nazev>
-        <skladem>4</skladem>
+        <typ>Pec M 150/13</typ>
+        <skladova_zasoba>4</skladova_zasoba>
+        <skladove_cislo>01136579</skladove_cislo>
+        <odkaz url=""></odkaz>
       </row>
       <row>
-        <kod_zbozi>01136614</kod_zbozi>
-        <interni_kod>S1</interni_kod>
-        <nazev>Pec M 220/13</nazev>
-        <skladem>2</skladem>
+        <typ>Pec M 220/13</typ>
+        <skladova_zasoba>2</skladova_zasoba>
+        <skladove_cislo>01136614</skladove_cislo>
+        <odkaz url=""></odkaz>
       </row>
       <row>
-        <kod_zbozi>01137943</kod_zbozi>
-        <interni_kod>S1</interni_kod>
-        <nazev>Pec M 45/13</nazev>
-        <skladem>5</skladem>
+        <typ>Pec M 45/13</typ>
+        <skladova_zasoba>5</skladova_zasoba>
+        <skladove_cislo>01137943</skladove_cislo>
+        <odkaz url="https://www.lac.cz/cs/pece-a-susarny/kruhova-pec-m">Kruhová keramická pec M 45/13</odkaz>
       </row>
       <row>
-        <kod_zbozi>01137944</kod_zbozi>
-        <interni_kod>S1</interni_kod>
-        <nazev>Pec M 60/13</nazev>
-        <skladem>5</skladem>
+        <typ>Pec M 60/13</typ>
+        <skladova_zasoba>5</skladova_zasoba>
+        <skladove_cislo>01137944</skladove_cislo>
+        <odkaz url=""></odkaz>
       </row>
       <row>
-        <kod_zbozi>620916</kod_zbozi>
-        <interni_kod>S1</interni_kod>
-        <nazev>Pec MGF 30/09 na spékání skla</nazev>
-        <skladem>0</skladem>
+        <typ>Pec MGF 30/09 na spékání skla</typ>
+        <skladova_zasoba>0</skladova_zasoba>
+        <skladove_cislo>620916</skladove_cislo>
+        <odkaz url=""></odkaz>
       </row>
     </rows>
   </body>
