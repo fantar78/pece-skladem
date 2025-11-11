@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="table-view-default.xsl"?>
 <export>
   <header>
-    <title>Číselník zboží</title>
+    <title>Pece skladem</title>
     <structure>
       <field>
         <title>Kód zboží</title>
@@ -14,7 +14,7 @@
         <title>Název zboží</title>
       </field>
       <field>
-        <title>Volné</title>
+        <title>Skladem</title>
       </field>
     </structure>
   </header>
@@ -24,55 +24,55 @@
         <kod_zbozi>01135368</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 160/13</nazev>
-        <volne>0</volne>
+        <skladem>-1</skladem>
       </row>
       <row>
         <kod_zbozi>01135653</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 60/13 (230V)</nazev>
-        <volne>5</volne>
+        <skladem>3</skladem>
       </row>
       <row>
         <kod_zbozi>01136440</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 30/13 (230V)</nazev>
-        <volne>4</volne>
+        <skladem>3</skladem>
       </row>
       <row>
         <kod_zbozi>01136486</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 45/13 (230V)</nazev>
-        <volne>5</volne>
+        <skladem>4</skladem>
       </row>
       <row>
         <kod_zbozi>01136505</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 100/13</nazev>
-        <volne>0</volne>
+        <skladem>0</skladem>
       </row>
       <row>
         <kod_zbozi>01136579</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 150/13</nazev>
-        <volne>0</volne>
+        <skladem>2</skladem>
       </row>
       <row>
         <kod_zbozi>01136614</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 220/13</nazev>
-        <volne>0</volne>
+        <skladem>0</skladem>
       </row>
       <row>
         <kod_zbozi>01137943</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 45/13</nazev>
-        <volne>8</volne>
+        <skladem>8</skladem>
       </row>
       <row>
         <kod_zbozi>01137944</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 60/13</nazev>
-        <volne>-2</volne>
+        <skladem>-1</skladem>
       </row>
     </rows>
   </body>
