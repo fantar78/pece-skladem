@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="table-view-default.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://fantar78.github.io/pece-skladem/table-view-default.xsl"?>
 <export>
   <header>
     <title>Pece skladem</title>
@@ -77,3 +77,4 @@
     </rows>
   </body>
 </export>
+
