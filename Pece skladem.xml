@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="table-view-default.xsl"?>
+<export>
+  <header>
+    <title>Číselník zboží</title>
+    <structure>
+      <field>
+        <title>Kód zboží</title>
+      </field>
+      <field>
+        <title>Interní kód produktu</title>
+      </field>
+      <field>
+        <title>Název zboží</title>
+      </field>
+      <field>
+        <title>Volné</title>
+      </field>
+    </structure>
+  </header>
+  <body>
+    <rows>
+      <row>
+        <kod_zbozi>01135368</kod_zbozi>
+        <interni_kod>S1</interni_kod>
+        <nazev>Pec M 160/13</nazev>
+        <volne>0</volne>
+      </row>
+      <row>
+        <kod_zbozi>01135653</kod_zbozi>
+        <interni_kod>S1</interni_kod>
+        <nazev>Pec M 60/13 (230V)</nazev>
+        <volne>5</volne>
+      </row>
+      <row>
+        <kod_zbozi>01136440</kod_zbozi>
+        <interni_kod>S1</interni_kod>
+        <nazev>Pec M 30/13 (230V)</nazev>
+        <volne>4</volne>
+      </row>
+      <row>
+        <kod_zbozi>01136486</kod_zbozi>
+        <interni_kod>S1</interni_kod>
+        <nazev>Pec M 45/13 (230V)</nazev>
+        <volne>5</volne>
+      </row>
+      <row>
+        <kod_zbozi>01136505</kod_zbozi>
+        <interni_kod>S1</interni_kod>
+        <nazev>Pec M 100/13</nazev>
+        <volne>0</volne>
+      </row>
+      <row>
+        <kod_zbozi>01136579</kod_zbozi>
+        <interni_kod>S1</interni_kod>
+        <nazev>Pec M 150/13</nazev>
+        <volne>0</volne>
+      </row>
+      <row>
+        <kod_zbozi>01136614</kod_zbozi>
+        <interni_kod>S1</interni_kod>
+        <nazev>Pec M 220/13</nazev>
+        <volne>0</volne>
+      </row>
+      <row>
+        <kod_zbozi>01137943</kod_zbozi>
+        <interni_kod>S1</interni_kod>
+        <nazev>Pec M 45/13</nazev>
+        <volne>8</volne>
+      </row>
+      <row>
+        <kod_zbozi>01137944</kod_zbozi>
+        <interni_kod>S1</interni_kod>
+        <nazev>Pec M 60/13</nazev>
+        <volne>-2</volne>
+      </row>
+    </rows>
+  </body>
+</export>
