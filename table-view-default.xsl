@@ -15,22 +15,25 @@
             background: #f5f5f5;
             color: #333;
             margin: 40px;
+            text-align: center;
           }
           h1 {
             color: #0074d9;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
           }
           table {
             border-collapse: collapse;
             width: 100%;
             background: white;
+            margin: 0 auto;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
           }
           th, td {
             border: 1px solid #ccc;
             padding: 8px 10px;
-            text-align: left;
+            text-align: center;
+            vertical-align: middle;
           }
           th {
             background: #eaeaea;
@@ -40,7 +43,7 @@
             background: #f9f9f9;
           }
           td.numeric {
-            text-align: right;
+            text-align: center;
           }
           a {
             color: #0074d9;
