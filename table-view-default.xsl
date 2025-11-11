@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
@@ -17,8 +17,9 @@
             margin: 40px;
           }
           h1 {
-            color: #444;
+            color: #0074d9;
             text-align: center;
+            margin-bottom: 20px;
           }
           table {
             border-collapse: collapse;
@@ -29,6 +30,7 @@
           th, td {
             border: 1px solid #ccc;
             padding: 8px 10px;
+            text-align: left;
           }
           th {
             background: #eaeaea;
@@ -37,18 +39,15 @@
           tr:nth-child(even) {
             background: #f9f9f9;
           }
-          td.skladem-negative {
-            color: red;
-            font-weight: bold;
+          td.numeric {
             text-align: right;
           }
-          td.skladem-positive {
-            color: green;
-            text-align: right;
+          a {
+            color: #0074d9;
+            text-decoration: underline;
           }
-          td.skladem-zero {
-            color: #555;
-            text-align: right;
+          a:hover {
+            color: #005299;
           }
         </style>
       </head>
@@ -68,19 +67,16 @@
           <tbody>
             <xsl:for-each select="/export/body/rows/row">
               <tr>
-                <td><xsl:value-of select="kod_zbozi"/></td>
-                <td><xsl:value-of select="interni_kod"/></td>
-                <td><xsl:value-of select="nazev"/></td>
-                <xsl:variable name="skladem" select="number(skladem)"/>
+                <td><xsl:value-of select="typ"/></td>
+                <td class="numeric"><xsl:value-of select="skladova_zasoba"/></td>
+                <td><xsl:value-of select="skladove_cislo"/></td>
                 <td>
-                  <xsl:attribute name="class">
-                    <xsl:choose>
-                      <xsl:when test="$skladem &lt; 0">skladem-negative</xsl:when>
-                      <xsl:when test="$skladem = 0">skladem-zero</xsl:when>
-                      <xsl:otherwise>skladem-positive</xsl:otherwise>
-                    </xsl:choose>
-                  </xsl:attribute>
-                  <xsl:value-of select="skladem"/>
+                  <a>
+                    <xsl:attribute name="href">
+                      <xsl:value-of select="odkaz/@url"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="odkaz"/>
+                  </a>
                 </td>
               </tr>
             </xsl:for-each>
