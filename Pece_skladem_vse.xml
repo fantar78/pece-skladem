@@ -24,55 +24,61 @@
         <kod_zbozi>01135368</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 160/13</nazev>
-        <skladem>-1</skladem>
+        <skladem>8</skladem>
       </row>
       <row>
         <kod_zbozi>01135653</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 60/13 (230V)</nazev>
-        <skladem>3</skladem>
+        <skladem>4</skladem>
       </row>
       <row>
         <kod_zbozi>01136440</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 30/13 (230V)</nazev>
-        <skladem>3</skladem>
+        <skladem>1</skladem>
       </row>
       <row>
         <kod_zbozi>01136486</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 45/13 (230V)</nazev>
-        <skladem>4</skladem>
+        <skladem>6</skladem>
       </row>
       <row>
         <kod_zbozi>01136505</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 100/13</nazev>
-        <skladem>0</skladem>
+        <skladem>7</skladem>
       </row>
       <row>
         <kod_zbozi>01136579</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 150/13</nazev>
-        <skladem>2</skladem>
+        <skladem>4</skladem>
       </row>
       <row>
         <kod_zbozi>01136614</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 220/13</nazev>
-        <skladem>0</skladem>
+        <skladem>2</skladem>
       </row>
       <row>
         <kod_zbozi>01137943</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 45/13</nazev>
-        <skladem>8</skladem>
+        <skladem>5</skladem>
       </row>
       <row>
         <kod_zbozi>01137944</kod_zbozi>
         <interni_kod>S1</interni_kod>
         <nazev>Pec M 60/13</nazev>
-        <skladem>-1</skladem>
+        <skladem>5</skladem>
+      </row>
+      <row>
+        <kod_zbozi>620916</kod_zbozi>
+        <interni_kod>S1</interni_kod>
+        <nazev>Pec MGF 30/09 na spékání skla</nazev>
+        <skladem>0</skladem>
       </row>
     </rows>
   </body>
