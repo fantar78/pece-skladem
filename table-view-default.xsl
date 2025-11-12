@@ -9,6 +9,16 @@
       <head>
         <meta charset="UTF-8"/>
         <title><xsl:value-of select="/export/header/title"/></title>
+
+        <!-- Microsoft Clarity tracking -->
+        <script type="text/javascript">
+          (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "u4tn7t16xd");
+        </script>
+
         <style>
           body {
             font-family: Arial, sans-serif;
